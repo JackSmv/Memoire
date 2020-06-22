@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controllers.Activities.RegisterActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREER UN COMPTE"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textView_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom"
+        android:paddingLeft="30dp"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:labelFor="@+id/editText_lastname"
+        />
+
+    <EditText
+        android:id="@+id/editText_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:lines="1"
+        />
+
+    <TextView
+        android:id="@+id/textView_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prenom"
+        android:paddingLeft="30dp"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:labelFor="@+id/editText_firstname"
+        />
+
+    <EditText
+        android:id="@+id/editText_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:lines="1"
+        />
+
+    <TextView
+        android:id="@+id/textView_sexe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexe"
+        android:paddingLeft="30dp"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:labelFor="@+id/radioGroup_sexe"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioGroup_sexe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        >
+        
+        <RadioButton
+            android:id="@+id/radioButton_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:text="Homme"
+            android:textSize="13sp"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioButton_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:text="Femme"
+            android:textSize="13sp"
+            android:layout_marginLeft="20dp"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView_pseudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pseudo"
+        android:paddingLeft="30dp"
+        android:textSize="15sp"
+        android:layout_marginTop="25dp"
+        android:labelFor="@+id/editText_pseudo"
+        />
+
+    <EditText
+        android:id="@+id/editText_pseudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:lines="1"
+        />
+
+    <TextView
+        android:id="@+id/textView_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mot de passe"
+        android:paddingLeft="30dp"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:labelFor="@+id/editText_password"
+        />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:lines="1"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/textView_confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmer le mot de passe"
+        android:paddingLeft="30dp"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:labelFor="@+id/editText_confirmPassword"
+        />
+
+    <EditText
+        android:id="@+id/editText_confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:lines="1"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="envoyer"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_primary_button"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"/>
+
+</LinearLayout>
