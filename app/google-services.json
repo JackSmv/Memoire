@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "980036628675",
+    "firebase_url": "https://app-memoire.firebaseio.com",
+    "project_id": "app-memoire",
+    "storage_bucket": "app-memoire.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980036628675:android:002c5628682d1423dfb276",
+        "android_client_info": {
+          "package_name": "mg.didavid.firsttry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980036628675-4kqht8fighu5sf66q8vad7j5kleqjspi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVNDWhaQogBfSzXKNx5wlpgNlKZxtPH7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980036628675-4kqht8fighu5sf66q8vad7j5kleqjspi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
